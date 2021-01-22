@@ -16,3 +16,8 @@ brew install websocat
 ```
 websocat - ws-c:sh-c:"socat -v -x - tcp:localhost:8282" --ws-c-uri ws://localhost
 ```
+
+## Cluster Testing
+```
+websocat - ws-c:sh-c:"socat -v -x - tcp:localhost:80" --ws-c-uri ws://localhost
+```
