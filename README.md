@@ -12,9 +12,14 @@ Install websocat
 brew install websocat
 ```
 
-Apply k8s manifests
+Apply k8s manifests to deploy the app and service
 ```
 kubectl apply -f k8s/ws-test.yaml
+```
+
+Apply the manifest for the VirtualService
+```
+kubectl apply -f k8s/vs-default.yaml
 ```
 
 ### Local Testing
