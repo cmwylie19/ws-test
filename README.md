@@ -27,7 +27,7 @@ kubectl apply -f k8s/vs-default.yaml
 websocat - ws-c:sh-c:"socat -v -x - tcp:localhost:8282" --ws-c-uri ws://localhost
 ```
 
-### Cluster Testing
+### Cluster Testing (assumes you are using docker desktop with k8s enabled)
 ```
 websocat - ws-c:sh-c:"socat -v -x - tcp:localhost:80" --ws-c-uri ws://localhost
 ```
